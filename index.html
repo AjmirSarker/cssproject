@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary " style="padding-left: 15% ; padding-right: 15%;">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="#"><img class="brand-logo"   src="images/icons/logo.png" alt=""> Idea</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active "  href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"><img class="brand-logo" src="images/icons/profile.png" alt=""></a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+
+    </header>
+    <main class="mx-auto ">
+        <seection >
+            <div class="container-fluid top-player mt-5 one">
+                <h4 >Top Player</h4>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 plaer p-3 d-flex align-items-center">
+                    <img src="images/players/player-1.png" alt="">
+                    <p class="b">John Smith</p>
+                </div>
+                <div class="col-md-4 col-sm-6 plaer p-3 d-flex align-items-center">
+                    <img src="images/players/player-2.png" alt="">
+                    <p class="b">Pro Rasel</p>
+                </div>
+                <div class="col-md-4 col-sm-6 plaer p-3 d-flex align-items-center">
+                    <img src="images/players/player-3.png" alt="">
+                    <p class="b">Abu Sufian</p>
+                </div>
+           
+                <div class="col-md-4 col-sm-6 plaer p-3 d-flex align-items-center">
+                    <img src="images/players/player-4.png" alt="">
+                    <p class="b">Shajedul Karim</p>
+                </div>
+                <div class="col-md-4 col-sm-6 plaer p-3 d-flex align-items-center">
+                    <img src="images/players/player-5.png" alt="">
+                    <p class="b">Maruf Ahmed</p>
+                </div>
+                <div class="col-md-4 col-sm-6 plaer p-3 d-flex align-items-center">
+                    <img src="images/players/player-6.png" alt="">
+                    <p class="b">Mujahid</p>
+                </div>
+            </div>
+            <hr>
+            <h4 >Top Blog</h4>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 plaerr p-3 d-flex align-items-center">
+                    <img src="images/blogs/blog-1.png" alt="">
+                    <p><strong> 13 of My Favorite <br>  UI/UX Goodies</strong>  <br> <span class="dimgry">By</span> <span class="clr"> Danny Sapio</span></p>
+                </div>
+                <div class="col-md-6 col-sm-12 plaerr p-3 d-flex align-items-center">
+                    <img src="images/blogs/blog-2.png" alt="">
+                    <p><strong> UI cheat sheet:<br>list vs grids</strong>  <br> <span class="dimgry">By</span> <span class="clr">Tess Gadd</span></p>
+                </div>
+                <div class="col-md-6 col-sm-12 plaerr p-3 d-flex align-items-center">
+                    <img src="images/blogs/blog-3.png" alt="">
+                    <p><strong> 7 typography tips  <br> for interface design</strong>  <br> <span class="dimgry">By</span> <span class="clr">Jeremiah Lam</span></p>
+                </div>
+           
+                <div class="col-md-6 col-sm-12 plaerr p-3 d-flex align-items-center">
+                    <img src="images/blogs/blog-4.png" alt="">
+                    <p><strong>Your logo is<br>copied</strong>  <br> <span class="dimgry">By</span> <span class="clr">  Ferdinand Vogler</span></p>
+                </div>
+
+               
+            </div>
+
+            </div>
+            
+        
+        </seection>
+        <div class="container-fluid top-player mt-5 mb-5 last one" >
+          <h4>Lates Course</h4>
+            <div class="row row-cols-1 row-cols-md-3 g-3" >
+                <div class="col ">
+                  <div class="card h-100  ">
+                    <img id="one" src="images/courses/course-1.png" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                      <h5 class="card-title">React - The Complete Guide 2020</h5>
+                      <p class="card-text pink">Reed Krakoff.</p>
+                    </div>
+                    <span class="main mt-3 mx-3 mb-3">
+                      <span class=" rating"><i class="fas fa-star gold"></i>
+                          <i class="fas fa-star gold"></i>
+                          <i class="fas fa-star gold "></i>
+                          <i class="fas fa-star gold"></i>
+                          <i class="far fa-star gray"></i>
+                          <span class="ms-3 mt-3">4.5</span>
+                      </span>
+                     <span class="m cl"><i class="far fa-clock "></i> 1.5hr</span> 
+                  </span>
+                    
+                  </div>
+                </div>
+                <div class="col ">
+                  <div class="card h-100 ">
+                    <img id="one" src="images/courses/course-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Powerpoint 2020 <br>Master Powerpoint Cour </h5>
+                      <p class="card-text pink ">Walter Scott</p>
+                    </div>
+                    <span class="main mt-3 mx-3 mb-3">
+                      <span class=" rating"><i class="fas fa-star gold"></i>
+                          <i class="fas fa-star gold"></i>
+                          <i class="fas fa-star gold "></i>
+                          <i class="fas fa-star gold"></i>
+                          <i class="far fa-star gray"></i>
+                          <span class="ms-3 mt-3">4.3</span>
+                      </span>
+                     <span class="m cl"><i class="far fa-clock "></i> 1.5hr</span> 
+                  </span>
+                    
+                  </div>
+                </div>
+                <div class="col ">
+                  <div class="card h-100 ">
+                    <img id="one" src="images/courses/course-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">The Complete JavaScript <br>Course 2020</h5>
+                      <p class="card-text pink ">Reed Krakoff</p>
+                      <span class="main mt-3  mb-3">
+                        <span class=" rating"><i class="fas fa-star gold"></i>
+                            <i class="fas fa-star gold"></i>
+                            <i class="fas fa-star gold "></i>
+                            <i class="fas fa-star gold"></i>
+                            <i class="far fa-star gray"></i>
+                            <span class="ms-3 mt-3">4.7</span>
+                        </span>
+                       <span class="m cl"><i class="far fa-clock "></i> 1.5hr</span> 
+                    </span>
+                     
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+
+           
+
+        </div>
+     
+
+    </main>
+ 
+    
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
